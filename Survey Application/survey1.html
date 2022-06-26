@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="MainCSS.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+        
+        
+    
+    <body>
+      <footer>
+        <small>Author: Ilayda Su Irday - Bahar Gorgun</small>
+        <small>&copy; Copyright {2022}, ESTU Corporation</small>
+     </footer>
+     <div class="container-fluid -sm border">
+       <header>
+        
+        <h1 class="page-header">Online Survey System</h1>
+      </header> 
+        
+        <nav>
+        <h2>Survey</h2>
+      </nav>
+
+      <main>
+        
+      
+      <div class="row">
+            <div id="menu"  class = "col-sm-3">
+                <ul>
+                 <li><a href="SurveyTakerMain.html">Home</a></li>
+                </ul>
+            </div>
+        
+      
+        <div class = "col-sm-8">
+            <form id="form">
+ 
+            <!-- Details -->
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+     
+                <!-- Input Type Text -->
+                <input type="text"
+                       id="name"
+                       placeholder="Enter your name" />
+            </div>
+      
+            <div class="form-control">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+     
+                <!-- Input Type Email-->
+                <input type="email"
+                       id="email"
+                       placeholder="Enter your email" />
+            </div>
+      
+            <div class="form-control">
+                <label for="age" id="label-age">
+                    Age
+                </label>
+     
+                <!-- Input Type Text -->
+                <input type="text"
+                       id="age"
+                       placeholder="Enter your age" />
+            </div>
+      
+            <div class="form-control">
+                <label for="role" id="label-role">
+                    Which option best describes you?
+                </label>
+                 
+                <!-- Dropdown options -->
+                <select name="role" id="role">
+                    <option value="student"> Bachleor Student</option>
+                    <option value="master">Master Student</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+      
+            <div class="form-control">
+                <label>
+                    Would you recommend university dining hall
+                    to a friend?
+                </label>
+     
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                           id="recommed-1"
+                           name="recommed">Yes</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                           id="recommed-2"
+                           name="recommed">No</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                           id="recommed-3"
+                           name="recommed">Maybe</input>
+                </label>
+            </div>
+      
+            <div class="form-control">
+                <label>liked foods
+                    <small>(Check all that apply)</small>
+                </label>
+                <!-- Input Type Checkbox -->
+                <label for="inp-1">
+                    <input type="checkbox"
+                           name="inp">Rice</input></label>
+                <label for="inp-2">
+                    <input type="checkbox"
+                           name="inp">Fried Checken </input></label>
+                <label for="inp-3">
+                    <input type="checkbox"
+                           name="inp">Fish</input></label>
+                <label for="inp-4">
+                    <input type="checkbox"
+                           name="inp">Pasta</input></label>
+                <label for="inp-5">
+                    <input type="checkbox"
+                           name="inp">Broccoli Soup</input></label>
+                <label for="inp-6">
+                    <input type="checkbox"
+                           name="inp">Jelly Fish salad</input></label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Sezar Salad</input></label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                           name="inp">Carrot Dinner</input></label>
+            </div>
+      
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+     
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+            </div>
+      
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+        </form>
+      </div>
+    </div>   
+  </main> 
+ </div>
+    </body>
+</html>

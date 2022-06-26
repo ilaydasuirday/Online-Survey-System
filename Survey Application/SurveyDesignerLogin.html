@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="MainCSS.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     </head>
+        
+        
+    
+    <body>
+      <footer>
+        <small>Author: Ilayda Su Irday - Bahar Gorgun</small>
+        <small>&copy; Copyright {2022}, ESTU Corporation</small>
+     </footer>
+     <div class="container-fluid -sm border">
+       <header>
+        
+        <h1 class="page-header">Online Survey System</h1>
+      </header> 
+        
+        <nav>
+        <h2>Survey Designer Login</h2>
+      </nav>
+
+      <main>
+        
+      
+      <div class="row">
+            <div id="menu"  class = "col-sm-3">
+                <ul>
+                 <li><a href="main.html">Home</a></li>
+                </ul>
+            </div>
+        
+    
+        <div class = "col-sm-8">
+          <form action="surveydesigner.php" method="POST">
+            <div class="imgcontainer">
+            </div>
+          
+            <div action="surveydesigner.php" class="container">
+              <label for="uname"><b>ID Number</b></label>
+              <input type="text" placeholder="Enter ID No" name="uname" id="uname" required> 
+              <label for="psw">Password</label>
+              <input type="password" placeholder="Enter password" id="psw" name="psw" required >
+              <button type="submit" class="btn btn-primary" name="kaydet" onClick="parent.location='SurveyDesignerMain.html'">Submit</button>
+             </div>
+        </form>
+      </div>
+    </div>   
+  </main> 
+ </div>
+    </body>
+</html>

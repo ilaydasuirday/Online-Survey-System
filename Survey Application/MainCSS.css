@@ -1,0 +1,337 @@
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+  
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+ 
+        /* Styling form-control Class */
+.form-control {
+            text-align: left;
+            margin-bottom: 25px;
+}
+ 
+        /* Styling form-control Label */
+.form-control label {
+            display: block;
+            margin-bottom: 10px;
+}
+ 
+        /* Styling form-control input,
+        select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+}
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+}
+ 
+        /* Styling Button */
+button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+}
+    
+h1{
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25pt;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(160, 24, 24);
+}
+   
+h2{
+       text-align: right;
+       font-family:'Times New Roman', Times, serif;
+       font-size: 20pt;
+       font-weight: bold;
+       color: black;
+   
+}
+h3{
+       text-align: left;
+       font-family:'Times New Roman', Times, serif;
+       font-size: 18pt;
+       font-weight: bold;
+       color: black;
+   
+}
+h4{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13pt;
+        background-color: rgb(160, 24, 24);
+        color: white;
+}
+   
+h5{
+       text-align: left;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 12pt;
+       color: #000;
+       font-weight: bold;
+}
+   
+h6{
+       color: white;
+       text-align: left;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 18pt;
+       background-color: rgb(160, 24, 24);
+       padding: 20px 20px 20px 40px;
+       border-radius: 5px;
+}
+
+#slider { 
+    overflow: hidden;
+}
+    
+#slider figure img { 
+    width:20%; float: left;
+    height: 370px;
+}
+    
+#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+}
+  
+
+body{
+    background-image: url("bg.jpg");
+}
+
+form {
+    border: 3px solid #555;
+    background-color: #f1f1f1;
+}
+  
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+ 
+#login {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 8px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+  
+
+#login:hover {
+    opacity: 0.8;
+}
+  
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+  
+
+img.logo {
+    width: 20%;
+    border-radius: 50%;
+}
+  
+ 
+.container {
+    padding: 16px;
+}
+  
+  
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+  
+ 
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+}
+
+.flex-container-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.flex-container-column{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+#menu  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+}
+  
+#menu li a{
+    display: block;
+    color: #000;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+  
+#menu li a:hover {
+    background-color: #555;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu li a:active {
+    color: white;
+    background-color: darkgreen;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  text-align: right;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25pt;
+  font-weight: bold;
+  color: white;
+  background-color:#434940;
+ }
+ 
+#estuimg{
+     float: right;
+     height: 100px;
+     width: 100px;
+}
+
+h2{
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+
+}
+
+.dropbtn {
+    background-color: #f1f1f1 ;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+    background-color: #555;
+    color: white;
+}
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #555;
+    color: white;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
